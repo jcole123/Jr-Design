@@ -146,7 +146,7 @@ body {
 @media (max-width: 767px) {
 	
 	.nav li {
-		text-align: left;
+		text-align: center;
 		white-space: nowrap;
 	}
 	
@@ -383,9 +383,9 @@ body {
 #slide-3 {
 	background-color: #000;
 	margin: 0 auto;
-	overflow: hidden;
+	overflow: visible;
 	padding: 0;
-	text-align: left;
+	text-align: center;
 	width: 100%;
 }
 	
@@ -406,6 +406,7 @@ body {
 	}
 	
 @media (max-width: 991px) {
+	
 	#slide-3 {
 		text-align: center;
 		width: 100%;
